@@ -1,0 +1,29 @@
+{
+  "name": "fudomo-cli",
+  "version": "0.1.0",
+  "description": "Command line tools for Fudomo transformations",
+  "main": "index.js",
+  "bin": {
+    "transform-fudomo": "./transform.js",
+    "generate-fudomo": "./generate.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lassy-fmde/fudomo-cli.git"
+  },
+  "author": "FMDE Group at University of Luxembourg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lassy-fmde/fudomo-cli/issues"
+  },
+  "homepage": "https://github.com/lassy-fmde/fudomo-cli#readme",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "fudomo-transform": "~0.1.33",
+    "fuzzer": "^0.2.1",
+    "yaml": "^1.7.2"
+  }
+}
